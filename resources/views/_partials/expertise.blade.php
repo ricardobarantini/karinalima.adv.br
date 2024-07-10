@@ -1,7 +1,7 @@
-<section class="bg-midnight-500 pt-10 pb-40">
+<section class="bg-midnight-500 pt-10 pb-32">
     <div class="container mx-auto">
-        <h2 class="text-2xl md:text-3xl text-center font-playfair-display mb-10">Áreas de Atuação</h2>
-        <div class="grid md:grid-cols-3 gap-y-3 md:gap-x-5 px-5 text-sm">
+        <h2 class="text-2xl md:text-3xl text-center font-playfair-display text-white uppercase mb-10 font-semibold">Áreas de Atuação</h2>
+        <div class="grid md:grid-cols-3 gap-y-3 md:gap-x-5 px-5 text-base">
             <div class="bg-white p-3 rounded-md shadow-lg py-5">
                 <div class="flex flex-col">
                     <div class="text-center">

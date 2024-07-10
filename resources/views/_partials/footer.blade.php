@@ -1,5 +1,5 @@
 <footer>
-    <div class="bg-gray-100">
+    <div class="bg-midnight-500 text-white fill-white">
         <div class="container mx-auto py-10 px-5">
             <div class="flex flex-col gap-y-3">
                 <div class="w-full lg:w-2/3">
@@ -28,9 +28,10 @@
             </div>
         </div>
     </div>
-    <div class="bg-gray-200 text-center">
+
+    <div class="bg-midnight-600 text-white text-center uppercase">
         <div class="container mx-auto py-3 text-sm">
-            {{ config('app.name') }} &copy; 2024
+            {{ config('app.name') }} &copy; {{ date('Y') }}
         </div>
     </div>
 </footer>

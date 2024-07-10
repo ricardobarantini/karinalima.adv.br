@@ -37,11 +37,11 @@
         </div>
     </div>
 
-    <div class="bg-gray-100">
+    <div class="bg-white">
         <div class="container mx-auto">
-            <div class="flex flex-col">
-                <div class="w-full lg:w-2/3">
-                    <h1 class="text-4xl sm:text-5xl font-playfair-display">Dra. Karina Lima</h1>
+            <div class="flex flex-col py-12 sm:py-24">
+                <div class="w-full px-5 lg:w-2/3">
+                    <h1 class="text-4xl sm:text-5xl font-playfair-display uppercase">Dra. Karina Lima</h1>
                     <p class="my-12 font-playfair-display text-lg sm:text-xl">Advogada especializada em Direito do consumidor, família e direito bancário. Atuação em todo o território nacional de forma online com sede presencial no Estado de São Paulo - Osasco.</p>
                     <div class="">
                         @include('_partials.btn-whatsapp', ['class' => 'rounded-full'])

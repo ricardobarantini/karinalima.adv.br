@@ -31,6 +31,10 @@ export default {
           900: '#594c37'
         },
       },
+
+      fontFamily: {
+        'playfair-display': ['"Playfair Display"', 'serif']
+      },
     },
   },
   plugins: [],

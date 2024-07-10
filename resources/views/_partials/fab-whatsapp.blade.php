@@ -12,7 +12,7 @@
         </div>
         {{-- Chat Header --}}
         <div class="bg-[#008069] w-full rounded-t-2xl p-4 flex gap-2">
-            <img src="/images/avatar.png" class="w-[50px] rounded-[50px] before:w-10 before:h-10 before:bg-green-500 before:z-10"/>
+            <img src="/images/profile.jpg" alt="Dra. Karina Lima" class="w-[50px] rounded-[50px] before:w-10 before:h-10 before:bg-green-500 before:z-10"/>
             <div class="flex flex-col text-white place-content-center">
                 <div class="font-bold">Dra. Karina Lima</div>
                 <div class="text-xs">Online</div>
@@ -23,8 +23,8 @@
         <div class="p-5 flex flex-col content-between gap-y-10">
             <div class="flex">
                 {{-- Message --}}
-                <svg class="absolute left-3 stroke-white fill-white">
-                    <path d="M0.772965 3.01404C-0.0113096 1.68077 0.950002 0 2.49683 0H9V17L0.772965 3.01404Z"></path>
+                <svg class="absolute w-5 h-5 left-3 stroke-white fill-white">
+                    <path d="M0.772965 3.01404C-0.0113096 1.68077 0.950002 0 2.49683 0H9V17L0.772965 3.01404Z" />
                 </svg>
                 <div class="bg-white rounded-xl rounded-ss-none shadow-lg text-sm p-3">
 
