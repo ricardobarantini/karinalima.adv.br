@@ -25,5 +25,5 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.DEPLOY_KEY }}
           source: "dist/*"
-          target: "/home/ricardo/karinalima.adv.br"
+          target: "/home/ricardo/karinalima.adv.br/dist"
           strip_components: 1
