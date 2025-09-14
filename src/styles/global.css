@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-midnight-100: #707683;
+  --color-midnight-200: #5a626f;
+  --color-midnight-300: #454e5d;
+  --color-midnight-400: #323a4b;
+  --color-midnight-500: #1f2839;
+  --color-midnight-600: #192130;
+  --color-midnight-700: #141b28;
+  --color-midnight-800: #0f151f;
+  --color-midnight-900: #0a0f1;
+
+  --color-cookie-100: #d3c3ab;
+  --color-cookie-200: #ccba9d;
+  --color-cookie-300: #c4b08f;
+  --color-cookie-400: #bda782;
+  --color-cookie-500: #b69d74;
+  --color-cookie-600: #9e8864;
+  --color-cookie-700: #867354;
+  --color-cookie-800: #6f5f45;
+  --color-cookie-900: #594c37;
+
+  --font-playfair-display: "Playfair\ Display", serif;
+}
