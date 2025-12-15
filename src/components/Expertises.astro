@@ -1,0 +1,17 @@
+---
+const { title, description, classNames = "expertise home" } = Astro.props;
+---
+
+<section class:list={classNames}>
+  <div class="wrapper">
+    <h2 class="title">{title}</h2>
+    <p class="description">{description}</p>
+    <div class="content">
+      <slot />
+    </div>
+
+    <div class="flex mt-10 justify-center">
+      <slot name="cta" />
+    </div>
+  </div>
+</section>

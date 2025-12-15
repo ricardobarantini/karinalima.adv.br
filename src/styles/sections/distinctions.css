@@ -1,0 +1,19 @@
+section.distinctions {
+  @apply bg-midnight-500 text-white py-10;
+
+  .wrapper {
+    @apply flex flex-col items-center;
+
+    .content {
+      @apply text-center;
+
+      ul {
+        @apply mt-10;
+
+        li {
+          @apply text-xl py-5;
+        }
+      }
+    }
+  }
+}

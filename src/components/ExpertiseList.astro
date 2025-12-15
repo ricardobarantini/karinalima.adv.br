@@ -1,0 +1,14 @@
+---
+const { title } = Astro.props;
+---
+
+<div class="bg-white p-3 rounded-md shadow-lg py-5">
+  <div class="flex flex-col">
+    <div class="text-center">
+      <h3 class="after:mx-auto text-xl md:text-2xl font-playfair-display mb-3 after:w-10 after:border-gray-800 after:border after:block after:mt-1 after:rounded">{title}</h3>
+    </div>
+    <div class="px-5">
+      <slot />
+    </div>
+  </div>
+</div>

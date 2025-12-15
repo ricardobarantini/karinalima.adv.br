@@ -1,0 +1,44 @@
+---
+import About from "../../components/About.astro";
+import Expertises from "../../components/Expertises.astro";
+import FabWhatsApp from "../../components/FabWhatsApp.astro";
+import Footer from "../../components/Footer.astro";
+import Header from "../../components/Header.astro";
+import Layout from "../../layouts/Layout.astro";
+import ExpertiseCard from "../../components/ExpertiseCard.astro";
+import BtnWhatsApp from "../../components/BtnWhatsApp.astro";
+import CTA from "../../components/CTA.astro";
+import Distinctions from "../../components/Distinctions.astro";
+
+const title = "Advogada de Família em Salto/SP | Defesa de Mulheres e Mães";
+const description = "Sou advogada de família em Salto/SP, atuo exclusivamente na defesa de mulheres e mães. Minha missão é proteger seus direitos com acolhimento e firmeza, enfrentando estratégias de ex-companheiros que tentam desgastar ou silenciar a sua voz. Aqui, cada mulher é ouvida, respeitada e defendida com estratégia e coragem.";
+---
+
+<Layout title={title} description={description}>
+  <Header title={title} description={description} />
+
+  <About classNames="about landing">
+    <p>No escritório Karina Lima Advocacia, cada caso é conduzido com a certeza de que a mulher merece ser ouvida, respeitada e protegida. Atuo exclusivamente na defesa de mulheres e mães, em situações familiares que muitas vezes são marcadas por injustiças, abusos e tentativas de silenciamento.</p>
+    <p>Minha missão é clara: dar voz às mulheres e não permitir que os direitos delas sejam diminuídos ou relativizados em benefício de ex-companheiros ou pais que não cumprem seus deveres. Aqui, não existe espaço para discursos prontos que tentam inverter a realidade e transformar a mãe em culpada.</p>
+    <p>Com firmeza e acolhimento, enfrento de forma estratégica aqueles que usam o processo como arma para desgastar a mulher. Seja em divórcios litigiosos, disputas de guarda, pensão alimentícia ou casos de alienação parental, a defesa é sempre construída para proteger a mulher e garantir que seus filhos não sejam vítimas de manobras e abusos.</p>
+    <p>Mais do que advogar, meu compromisso é com a justiça social e a proteção da maternidade, porque acredito que defender mulheres é também defender o futuro de suas famílias.</p>
+  </About>
+
+  <Expertises title="Áreas de Atuação em Direito de Família" description="Atuo exclusivamente na defesa de mulheres e mães, com foco em acolhimento, firmeza e estratégia jurídica." classNames="expertise landing">
+    <ExpertiseCard title="Divórcio (consensual e litigioso)" />
+    <ExpertiseCard title="Guarda de filhos e regulamentação de visitas" />
+    <ExpertiseCard title="Pensão alimentícia (fixação e revisão)" />
+    <ExpertiseCard title="Alienação parental" />
+    <ExpertiseCard title="Regulamentação de convivência" />
+    <ExpertiseCard title="Partilha de bens em divórcio" />
+
+    <BtnWhatsApp slot="cta" label="Clique aqui e fale comigo agora pelo WhatsApp" />
+  </Expertises>
+
+  <Distinctions />
+
+  <CTA />
+
+  <Footer />
+  <!-- <FabWhatsApp /> -->
+</Layout>

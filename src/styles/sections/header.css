@@ -1,0 +1,43 @@
+.topbar {
+  @apply bg-midnight-600 text-white text-sm fill-white;
+
+  .wrapper {
+    @apply container mx-auto hidden sm:block py-2;
+
+    .content {
+      @apply flex justify-end gap-x-5;
+
+      .item {
+        @apply flex gap-x-1;
+
+        svg {
+          @apply w-4;
+        }
+      }
+    }
+  }
+}
+
+.logo {
+  @apply bg-midnight-500 text-white;
+
+  .wrapper {
+    @apply flex justify-center py-5;
+  }
+}
+
+.hero {
+  @apply py-12 sm:py-24;
+
+  .wrapper {
+    @apply container mx-auto;
+
+    .content {
+      @apply flex flex-col items-start;
+
+      .subtitle {
+        @apply my-12 font-playfair-display text-lg sm:text-xl;
+      }
+    }
+  }
+}

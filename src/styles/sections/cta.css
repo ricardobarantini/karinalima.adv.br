@@ -1,0 +1,11 @@
+section.cta {
+  @apply py-10;
+
+  .wrapper {
+    @apply flex flex-col w-1/2 items-center mx-auto;
+
+    .description {
+      @apply mb-10;
+    }
+  }
+}

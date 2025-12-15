@@ -1,0 +1,37 @@
+section.expertise {
+  @apply pt-10 px-5;
+
+  .wrapper {
+    @apply container mx-auto;
+
+    .title,
+    .description {
+      @apply text-center;
+    }
+
+    .content {
+      @apply grid md:grid-cols-3 gap-y-3 md:gap-x-5 px-5 uppercase;
+    }
+  }
+}
+
+section.expertise.home {
+  @apply bg-midnight-500 pb-32;
+
+  .title,
+  .description {
+    @apply text-white;
+  }
+}
+
+section.expertise.landing {
+  @apply bg-white pb-10;
+
+  .wrapper {
+    @apply container mx-auto;
+
+    .title {
+      @apply text-midnight-500;
+    }
+  }
+}

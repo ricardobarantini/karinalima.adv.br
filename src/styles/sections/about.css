@@ -1,0 +1,33 @@
+section.about {
+  @apply mt-15 sm:mt-0;
+
+  .wrapper {
+    @apply flex flex-col place-items-center p-10;
+
+    .profile-image {
+      @apply w-[220px] h-[220px] -mt-28 border-[15px] rounded-[220px];
+
+      img {
+        @apply w-[200px] rounded-[220px];
+      }
+    }
+
+    .content {
+      @apply flex flex-col w-full md:w-4/6 mb-10 md:text-lg text-justify gap-y-2;
+    }
+  }
+}
+
+.about.home {
+  .profile-image {
+    @apply border-white bg-white;
+  }
+}
+
+.about.landing {
+  @apply bg-midnight-500 text-white;
+
+  .profile-image {
+    @apply border-midnight-500 bg-midnight-500;
+  }
+}

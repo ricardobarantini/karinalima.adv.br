@@ -25,3 +25,27 @@
 
   --font-playfair-display: "Playfair\ Display", serif;
 }
+
+h1 {
+  @apply text-4xl sm:text-5xl;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h1,
+h2 {
+  @apply font-playfair-display uppercase;
+}
+
+.description {
+  @apply mt-3 mb-5 text-lg;
+}
+
+/* Sections */
+@import "./sections/header.css";
+@import "./sections/about.css";
+@import "./sections/expertise.css";
+@import "./sections/distinctions.css";
+@import "./sections/cta.css";
