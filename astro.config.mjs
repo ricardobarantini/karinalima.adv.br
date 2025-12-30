@@ -1,12 +1,12 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://karinalima.adv.br',
-    base: '/karinalima.adv.br',
-    vite: {
-        plugins: [tailwindcss()],
-    },
+  site: "https://karinalima.adv.br",
+  base: "/",
+  vite: {
+    plugins: [tailwindcss()],
+  },
 });
